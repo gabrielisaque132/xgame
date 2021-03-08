@@ -69,14 +69,16 @@ class Exposition extends Component {
   render(){
     return (
       <div>
+      
         {
           Json.map(({id, name, price, score, image}) => {
             return <div>
+            
             <div >
               <aside>
                 <p></p>
-              
               </aside>
+
 
                 <div id="screem">
                   <img src={ process.env.PUBLIC_URL + "/assets/" + image} />
